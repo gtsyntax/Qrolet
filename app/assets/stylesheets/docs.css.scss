@@ -1,3 +1,58 @@
 // Place all the styles related to the Docs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.files {
+	width: 25%;
+	float: left;
+	margin:10px;
+	border: 2px dotted #000000;
+	text-align: center;
+}
+
+.files h2 a {
+	text-decoration: none;
+	color: #000000;
+	font-weight: 400;
+}
+
+.files h2 a:hover {
+	color: #2ecc71;
+}
+
+.file_show {
+	width: 80%;
+	margin-bottom: 30px;
+}
+
+.file_show p {
+	font-size: 20px;
+}
+
+#docs_btn {
+	border: 1px solid #2ecc71;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #2ecc71;
+	color: #fff;
+}
+#docs_edit_btn {
+	border: 1px solid #2ecc71;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #2ecc71;
+	color: #fff;
+}
+#docs_delete_btn {
+	border: 1px solid #2ecc71;
+	text-decoration: none;
+	padding: 10px;
+	text-transform: uppercase;
+	font-weight: 600;
+	background-color: #2ecc71;
+	color: #fff;
+}

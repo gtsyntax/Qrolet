@@ -1,0 +1,25 @@
+!!!
+%html
+%head
+	%title Qrolet
+	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+	= csrf_meta_tags
+%body
+	%header
+		.header_inner
+			= link_to "Qrolet", root_path, id: "logo"
+
+			%nav
+				- if user_signed_in?
+					= link_to "Create Doc", new_doc_path, id: "createdoc_btn"
+					= link_to "Sign Out", destroy_user_session_path, method: :delete, id: "logout_btn"
+				- else
+					= link_to "Login", new_user_session_path, id: "login_btn"
+					= link_to "Sign Up", new_user_registration_path, id: "register_btn"
+	%p.notice= notice
+	%p.alert= alert
+
+	.container
+		= yield 
+
