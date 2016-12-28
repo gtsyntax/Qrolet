@@ -1,6 +1,6 @@
 .file_show
 	%h1= @doc.title
-	%p= @doc.content
+	%p= simple_format(@doc.content)
 	%hr
 
 = link_to "All Docs", docs_path, id: "docs_btn"
