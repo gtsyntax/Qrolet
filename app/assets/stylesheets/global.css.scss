@@ -2,6 +2,7 @@ body {
 	font-family: 'PT Sans', sans-serif;
 }
 
+/* Style for header */
 .header_inner {
 	width: 100%;
 	height: 100px;
@@ -9,6 +10,7 @@ body {
 	top: 0px;
 }
 
+/* Style for logo */
 #logo {
 	text-decoration: none;
 	float: left;
@@ -20,6 +22,7 @@ body {
 	color: #000000;
 }
 
+/* Style for login btn */
 #login_btn {
 	text-decoration: none;
 	float: left;
@@ -30,6 +33,7 @@ body {
 	color: #000000;
 }
 
+/* Style for register btn */
 #register_btn {
 	text-decoration: none;
 	float: left;
@@ -45,6 +49,7 @@ body {
 	color: #ffffff;
 }
 
+/* Style for create_doc btn */
 #createdoc_btn {
 	text-decoration: none;
 	float: left;
@@ -60,6 +65,7 @@ body {
 	color: #ffffff;
 }
 
+/* Style for logout btn */
 #logout_btn {
 	text-decoration: none;
 	float: left;
@@ -70,8 +76,11 @@ body {
 	color: #000000;
 }
 
+/* Style for container */
 .container {
 	width: 100%;
 	margin-top: 100px;
 	margin-left: 8%;
 }
+
+

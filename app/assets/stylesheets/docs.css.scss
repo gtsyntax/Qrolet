@@ -2,11 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/* Style for doc list page */
 .files {
 	width: 25%;
 	float: left;
 	margin:10px;
-	border: 2px dotted #000000;
+	border: 1px dotted #000000;
 	text-align: center;
 }
 
@@ -20,6 +21,18 @@
 	color: #2ecc71;
 }
 
+/* Style for view_doc btn */
+.view_doc {
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	background-color: #2ecc71;
+	color: #ffffff;
+	border: 1px solid #2ecc71;
+	font-weight: 600;
+}
+
+/* Style for show page */
 .file_show {
 	width: 80%;
 	margin-bottom: 30px;
@@ -53,4 +66,120 @@
 	font-weight: 600;
 	background-color: #2ecc71;
 	color: #fff;
+}
+
+/* Style for simple_form */
+.form_wrapper {
+	width: 100%;
+}
+
+label.string {
+	font-size: 22px;
+	display: block;
+	margin-bottom: 10px;
+}
+input.string {
+	width: 80%;
+	padding: 10px 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+input.string:focus {
+	border: 1px solid #2ecc71;
+}
+label.text {
+	font-size: 22px;
+	display: block;
+	margin: 10px 0;
+}
+textarea.text {
+	width: 80%;
+	padding: 10px 20px;
+	height: 200px;
+	font-family: 'PT Sans', sans-serif;
+	margin-bottom: 10px;
+}
+textarea.text:focus {
+	border: 1px solid #2ecc71;
+}
+input.btn {
+	cursor: pointer;
+	background-color: #2ecc71;
+	border: none;
+	box-sizing: border-box;
+	color: #fff;
+	padding: 8px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	float: left;
+	margin-left: 30%;
+}
+
+/* Style for login and signup form */
+.wrapper {
+	width: 50%;
+	margin-left: 25%;
+}
+label.email {
+	font-size: 22px;
+	display: block;
+	margin-bottom: 10px;
+}
+
+label.email abbr {
+	text-decoration: none;
+}
+
+input.email{
+	width: 50%;
+}
+
+label.password {
+	font-size: 22px;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+label.password abbr {
+	text-decoration: none;
+}
+
+input.password {
+	padding: 10px;
+	width: 53%;
+	display: block;
+	margin-bottom: 5px;
+}
+
+#signup_btn {
+	margin-top: 10px;
+	margin-left: -100px;
+	display: block;
+}
+
+#signin_btn {
+	margin-left: -100px;
+	display: block;
+}
+
+.wrapper a {
+	text-decoration: none;
+	margin-left: 10px;
+	color: #000;
+}
+/* Style for cancel btn */
+.abort {
+	text-decoration: none;
+	float: left;
+	background-color: #2ecc71;
+	color: #fff;
+	padding: 8px;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 20px;
+	margin-left: 10px;
+
 }

@@ -2,8 +2,9 @@
 	-unless @docs.blank?
 		- @docs.each do |doc|
 			.files
-				%h2= link_to doc.title, doc
+				%h2= doc.title
 				%p= "created " + time_ago_in_words(doc.created_at) + " ago"
 				%p= truncate(doc.content, length:50)
+				%p= link_to "View Doc", doc, class: "view_doc"
 	- else
 		%h2 Create Doc!
